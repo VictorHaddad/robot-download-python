@@ -1,0 +1,30 @@
+# Ambiente virtual
+venv/
+*.egg-info/
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração do Playwright
+.npm/
+.pwconfig.yml
+
+# Arquivos de configuração do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
+
+# Arquivos do MongoDB (se houverem)
+*.json
+*.db
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de instalação
+*.exe
+*.msi
+.env
